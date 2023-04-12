@@ -20,3 +20,7 @@ public:
 		cout << "Nama : " << Nama << endl;
 	}
 };
+
+class Matakuliah {
+
+};
