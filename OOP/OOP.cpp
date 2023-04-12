@@ -7,5 +7,11 @@ private:
 	int NIM;
 	string Nama;
 
-
+public:
+	void inputdata() {
+		cout << "Masukkan NIM : " << endl;
+		cin >> NIM;
+		cout << "Masukkan Nama : " << endl;
+		cin >> Nama;
+	}
 };
