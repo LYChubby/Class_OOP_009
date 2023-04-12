@@ -34,10 +34,16 @@ public:
 };
 
 void Matakuliah::InputMK() {
-	cout << "Masukkan Kode Mata Kuliah : " << endl;
+	cout << "\nMasukkan Kode Mata Kuliah : " << endl;
 	cin >> kodemk;
 	cout << "Masukkan Nama Mata Kuliah : " << endl;
 	cin >> namamk;
 	cout << "Masukkan Jumlah SKS : " << endl;
 	cin >> sks;
+}
+
+void Matakuliah::TampilMK() {
+	cout << "\nKode Mata Kuliah : " << kodemk << endl;
+	cout << "Nama Mata Kuliah : " << namamk << endl;
+	cout << "Jumlah SKS : " << sks << endl;
 }
